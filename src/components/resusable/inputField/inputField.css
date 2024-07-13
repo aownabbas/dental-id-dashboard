@@ -1,0 +1,88 @@
+.container_reuseable_field {
+  height: 45px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #8a8f910f;
+  /* margin-bottom: 0.4rem; */
+  display: flex;
+  overflow: hidden;
+  border: 1px solid #c7c5c5;
+  cursor: pointer;
+}
+
+.container_reuseable_field_error {
+  height: 45px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #8a8f910f;
+  margin-bottom: 0.4rem !important;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.container_reuseable_field_error input {
+  border: none !important;
+  background-color: #ffffff;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+
+.container_reuseable_field input {
+  border: none !important;
+  background-color: #ffffff;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+
+.container_reusable_field input:focus {
+  border: none !important;
+  background-color: #ffffff;
+  outline: none !important;
+}
+
+.container_reuseable_field:hover {
+  height: 45px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #ffffff;
+  /* margin-bottom: 0.4rem; */
+  display: flex;
+  overflow: hidden;
+  border: 2px solid #20c3ff;
+  cursor: pointer;
+}
+
+.container_reuseable___field_icon {
+  height: 100%;
+  background-color: #ffffff;
+  padding: 8px 20px;
+}
+
+.auth_button {
+  background-color: #20c3ff;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  width: 100%;
+  text-transform: capitalize !important;
+}
+
+.subscription_button {
+  background-color: #20c3ff;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 9px;
+  width: 100%;
+  text-transform: capitalize !important;
+}
+
+.text-danger span {
+  margin-top: 0.4rem;
+}

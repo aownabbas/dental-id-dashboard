@@ -1,0 +1,183 @@
+/* seeAllMethodsModal */
+
+.see_all_methods_container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.methods_cross_icon {
+  display: flex;
+  justify-content: end;
+  color: white;
+  cursor: pointer;
+}
+
+.children_methods {
+  margin-top: 12px;
+  font-size: 10px;
+  color: #000000;
+}
+
+.children_methods div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.children_methods div p:nth-child(1) {
+  font-weight: bold;
+  line-height: 8px;
+  margin-top: 8px;
+}
+
+.children_methods div img:nth-child(2) {
+  cursor: pointer;
+}
+
+.children_methods p:nth-child(2) {
+  font-weight: normal;
+  line-height: 8px;
+}
+
+.children_methods p:nth-child(3) {
+  font-weight: normal;
+  line-height: 8px;
+}
+
+.juvenile_methods {
+  margin-top: 25px;
+  font-size: 10px;
+  color: #000000;
+}
+
+.juvenile_methods p:nth-child(1) {
+  font-weight: bold;
+  line-height: 8px;
+}
+
+.juvenile_methods p:nth-child(2) {
+  font-weight: normal;
+  line-height: 8px;
+}
+
+.juvenile_methods p:nth-child(3) {
+  font-weight: normal;
+  line-height: 8px;
+}
+
+.juvenile_methods p:nth-child(4) {
+  font-weight: normal;
+  line-height: 8px;
+}
+
+.adolescent_methods {
+  margin-top: 25px;
+  font-size: 10px;
+  color: #000000;
+}
+
+.adolescent_methods p:nth-child(1) {
+  font-weight: bold;
+  line-height: 12px;
+}
+
+.adolescent_methods p:nth-child(2) {
+  font-weight: normal;
+  line-height: 8px;
+}
+
+.adolescent_methods p:nth-child(3) {
+  font-weight: normal;
+  line-height: 8px;
+}
+
+.adult_methods {
+  margin-top: 25px;
+  font-size: 10px;
+  color: #000000;
+}
+
+.adult_methods p:nth-child(1) {
+  font-weight: bold;
+  line-height: 8px;
+}
+
+.adult_methods p:nth-child(2) {
+  font-weight: normal;
+  line-height: 8px;
+}
+
+.adult_methods p:nth-child(3) {
+  font-weight: normal;
+  line-height: 8px;
+}
+
+.adult_methods p:nth-child(4) {
+  font-weight: normal;
+  line-height: 8px;
+}
+
+.adult_methods p:nth-child(5) {
+  font-weight: normal;
+  line-height: 8px;
+}
+
+.adult_methods p:nth-child(6) {
+  font-weight: normal;
+  line-height: 8px;
+}
+
+/* free subscription modal */
+
+.alert_modal_container {
+  text-align: center;
+}
+
+.alert_modal_container h1 {
+  font-size: 22px;
+  margin-top: 30px;
+  color: #1c1c1e;
+  font-weight: bold;
+}
+
+.alert_modal_container p {
+  margin-top: 30px;
+  line-height: 20px;
+  color: #9496a8;
+}
+
+.alert_modal_container .buttons_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.alert_modal_container .buttons_container div:nth-child(1) {
+  width: 48%;
+}
+
+.alert_modal_container .buttons_container div:nth-child(2) {
+  width: 48%;
+}
+
+.modal_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 17%;
+  background-color: #ffffff;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.2); /* Assuming you want a box shadow with a specified blur radius */
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .modal_container {
+    width: 60%;
+  }
+}

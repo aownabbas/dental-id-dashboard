@@ -1,0 +1,65 @@
+.tool_contianer {
+    height: auto;
+    width: 100%;
+    /* margin-top: 10px; */
+    /* padding: 5px; */
+}
+
+.tool_contianer strong {
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.44;
+    font-family: SFProDisplay-Regular;
+    font-size: 9px;
+    padding-left: 10px;
+
+
+}
+
+.tools_actions__container {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tools_actions__container_img {
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    height: 35px;
+    width: 50%;
+    /* overflow: hidden; */
+}
+
+.tools_actions__container_img img {
+    width: 12px;
+    height: 12px;
+    align-self: center;
+    opacity: 0.9;
+}
+
+.tools_actions__container_img:hover img {
+    color: #20c3ff;
+    cursor: pointer;
+    filter: invert(61%) sepia(67%) saturate(1654%) hue-rotate(163deg) brightness(101%) contrast(101%);
+}
+
+.tools_actions__container_img span {
+    letter-spacing: 0px;
+    color: #000000;
+    /* opacity: 0.44; */
+    font-family: SFProDisplay-Medium;
+    font-size: 8px;
+    /* width: 50px; */
+}
+
+.tools_actions__container_img:hover span {
+    letter-spacing: 0px;
+    color: #20c3ff;
+    opacity: 0.44;
+    font-family: SFProDisplay-Regular;
+    font-size: 10px;
+}

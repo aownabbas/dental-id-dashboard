@@ -1,0 +1,504 @@
+.pricing_style_one {
+  padding: 40px 80px 80px 80px;
+  background-color: #f7f3f3;
+  position: relative;
+  padding-bottom: 200px;
+}
+
+.pricing_plan_container {
+  padding: 0rem 6rem;
+  margin: 30px 0px;
+}
+
+.pricing_plan_card {
+  padding: 60px 35px;
+  background-color: #ffffff;
+  margin-top: 30px;
+  /* padding-left: 25px; */
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+
+.pricing_plan_card h1:nth-child(1) {
+  font-size: 24px;
+  font-weight: 500;
+  color: #20c3ff;
+  line-height: 15px;
+}
+
+.pricing_plan_card p:nth-child(2) {
+  /* height: 3rem; */
+  font-size: 14px;
+  font-weight: bold;
+  color: #273167;
+}
+
+.standard_plan_title {
+  height: 2rem;
+  font-size: 14px;
+  font-weight: bold;
+  color: #273167;
+  line-height: 22px;
+  margin-top: 20px;
+}
+
+.pricing_plan_card hr:nth-child(3) {
+  border: 2px solid #2cc3ff;
+  width: 50%;
+  margin-left: 0px !important;
+}
+
+.pricing_plan_card div:nth-child(4) {
+  margin-top: 25px;
+  display: flex;
+}
+
+.pricing_plan_card div:nth-child(4) p:nth-child(2) {
+  font-size: 14px;
+  font-weight: bold;
+  color: #273167;
+  margin-left: 12px;
+  line-height: 16px;
+}
+
+.pricing_plan_card div:nth-child(5) {
+  display: flex;
+}
+
+.pricing_plan_card div:nth-child(5) p:nth-child(2) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.pricing_plan_card div:nth-child(6) {
+  display: flex;
+}
+
+.pricing_plan_card div:nth-child(6) p:nth-child(2) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.pricing_plan_card div:nth-child(7) {
+  display: flex;
+}
+
+.pricing_plan_card div:nth-child(7) p:nth-child(2) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.pricing_plan_card div:nth-child(8) {
+  margin-top: 15px;
+  display: flex;
+}
+
+.pricing_plan_card div:nth-child(8) div p:nth-child(1) {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  margin-left: 12px;
+  line-height: 16px;
+}
+
+.pricing_plan_card div:nth-child(8) div p:nth-child(2) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 8px;
+}
+
+.pricing_plan_card div:nth-child(8) div p:nth-child(3) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 8px;
+}
+
+.pricing_plan_card div:nth-child(8) div p:nth-child(4) {
+  font-size: 14px;
+  color: #20c3ff;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 8px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.pricing_plan_card div:nth-child(9) {
+  margin-top: 15px;
+  display: flex;
+}
+
+.pricing_plan_card div:nth-child(9) div p:nth-child(1) {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  margin-left: 12px;
+  line-height: 16px;
+}
+
+.pricing_plan_card div:nth-child(9) div p:nth-child(2) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 8px;
+}
+
+.pricing_plan_card div:nth-child(9) div p:nth-child(3) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 8px;
+}
+
+.pricing_plan_card div:nth-child(9) div p:nth-child(4) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 8px;
+}
+
+.pricing_plan_card div:nth-child(10) {
+  margin-top: 15px;
+  display: flex;
+}
+
+.pricing_plan_card div:nth-child(10) div p:nth-child(1) {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  margin-left: 12px;
+  line-height: 16px;
+}
+
+.pricing_plan_card div:nth-child(10) div p:nth-child(2) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 8px;
+}
+
+.pricing_plan_card div:nth-child(11) {
+  margin-top: 15px;
+}
+
+/* .pricing_plan_card div:nth-child(11) .subscription_button {
+  background-color: #20c3ff !important;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 12px;
+  border-radius: 8px;
+  width: 90%;
+}
+
+.pricing_plan_card div:nth-child(11) .free_subsc_button {
+  background-color: #ffffff !important;
+  color: #20c3ff !important;
+  box-shadow: 0px 10px 23px #0000000f;
+  font-size: 14px;
+  padding: 12px;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  /* width: 90%; */
+/* } */
+
+/* enterprize plan */
+
+.p-1 {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  /* width: 30% !important; */
+}
+
+.enterprize_plan_card {
+  padding: 60px 35px;
+  background-color: #ffffff;
+  margin-top: 30px;
+  /* padding-left: 35px; */
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+
+.enterprize_head {
+  font-size: 24px;
+  font-weight: 500;
+  color: #20c3ff;
+  line-height: 15px;
+}
+
+.enterprize_plan_card p:nth-child(2) {
+  /* height: 3rem; */
+  font-size: 14px;
+  font-weight: bold;
+  color: #273167;
+}
+
+.enterprize_plan_card hr:nth-child(3) {
+  border: 2px solid #2cc3ff;
+  width: 50%;
+  margin-left: 0px !important;
+}
+
+.enterprize_plan_card div:nth-child(4) {
+  margin-top: 25px;
+  display: flex;
+}
+
+.enterprize_plan_card div:nth-child(4) p:nth-child(2) {
+  font-size: 14px;
+  font-weight: bold;
+  color: #273167;
+  margin-left: 12px;
+  line-height: 16px;
+}
+
+.enterprize_plan_card div:nth-child(5) {
+  display: flex;
+}
+
+.enterprize_plan_card div:nth-child(5) p:nth-child(2) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.enterprize_plan_card div:nth-child(6) {
+  display: flex;
+}
+
+.enterprize_plan_card div:nth-child(6) p:nth-child(2) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.enterprize_plan_card div:nth-child(7) {
+  display: flex;
+}
+
+.enterprize_plan_card div:nth-child(7) div p:nth-child(1) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.enterprize_plan_card div:nth-child(7) div p:nth-child(2) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.enterprize_plan_card div:nth-child(8) {
+  margin-top: 15px;
+  display: flex;
+}
+
+.enterprize_plan_card div:nth-child(8) div p:nth-child(1) {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  margin-left: 12px;
+  line-height: 16px;
+}
+
+.enterprize_plan_card div:nth-child(9) {
+  display: flex;
+}
+
+.enterprize_plan_card div:nth-child(9) p:nth-child(2) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 0px;
+}
+
+.privacy_data {
+  display: flex;
+}
+
+.enterprize_plan_card .privacy_data p:nth-child(2) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 0px !important;
+}
+
+.data_privacy {
+  display: flex;
+}
+
+.enterprize_plan_card .data_privacy p:nth-child(2) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 0px !important;
+}
+
+.security {
+  display: flex;
+}
+
+.enterprize_plan_card .security p:nth-child(2) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 0px !important;
+}
+
+.support_priority {
+  display: flex;
+  margin-top: 106px;
+}
+
+.enterprize_plan_card .support_priority p:nth-child(1) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: bold;
+  line-height: 12px;
+}
+
+.enterprize_plan_card .support_priority p:nth-child(2) {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.tab_title {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 0;
+  justify-content: center;
+  font-size: 0;
+  margin: px 0px;
+}
+
+.nav_item a {
+  display: inline-block;
+  margin-bottom: 0 !important;
+}
+
+.nav_item a {
+  display: block;
+  border: none;
+  outline: none;
+  color: #86909e;
+  display: inline-block;
+  padding: 8px 30px;
+  cursor: pointer;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 0 !important;
+  transition: all 0.4s ease;
+  /* border-style: solid;
+  border-width: 1px;
+  border-color: #eaeaea; */
+  background-color: #f9f9f9;
+  box-shadow: 0px 15px 30px 0px rgba(119, 123, 146, 0.1);
+}
+
+.nav_item a:hover {
+  border-color: #e4f0fc;
+  background: #e4f0fc;
+  color: #000000;
+}
+
+.nav_item a.active {
+  border-color: #e4f0fc;
+  background-color: #042a50 !important;
+  color: #000000 !important;
+}
+
+.nav_item:first-child a {
+  border-top-left-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
+}
+
+.nav_item:last-child a {
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+}
+
+.nav_item .nav_link {
+  background-color: #e4f0fc;
+  color: #000000 !important;
+  /* border-color: rgb(231, 223, 223) !important; */
+}
+
+.nav_item .nav_link.active {
+  background-color: #e4f0fc;
+  color: #000000 !important;
+  /* border-color: #042a50 !important; */
+}
+
+@media (max-width: 768px) {
+  .pricing_plan_container {
+    padding: 0rem 0rem;
+    margin: 30px 20px;
+  }
+
+  .pricing_plan_card {
+    margin-top: 30px;
+    padding: 35px 35px;
+  }
+
+  .enterprize_plan_card {
+    margin-top: 30px;
+    padding: 35px 35px;
+  }
+
+  .standard_plan_title {
+    height: auto;
+    margin-top: 25px;
+  }
+
+  .support_priority {
+    margin-top: 15px;
+  }
+}
+
+/* subscription-confirmation css */
+
+.subscribe_container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}

@@ -1,0 +1,11 @@
+.dropdown_container {
+  width: 180px !important;
+  margin-top: 13px;
+  border-radius: 10px;
+  font-size: 8px;
+  background-color: red;
+}
+
+.menu_items {
+  font-size: 14px !important;
+}

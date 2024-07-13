@@ -1,0 +1,241 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #fefeff;
+  flex: 1;
+}
+
+.container_login_form {
+  flex-direction: column;
+  display: flex;
+}
+
+.container_login_form__logo {
+  height: 10rem;
+  width: 12rem;
+  align-self: center;
+}
+
+.container_login_form__logo img {
+  height: 100%;
+  width: 100%;
+}
+
+.container_login_form__logo p {
+  text-align: center;
+  color: #9b9b9b;
+  font-size: 15px;
+  font-family: SFProDisplay-Medium;
+  margin-top: 5px;
+}
+
+.container_login_form__singIn {
+  margin: 10px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-family: SFProDisplay-Medium;
+  align-self: center;
+}
+
+.container_login_form__fields {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container_login_form__email {
+  height: 45px;
+  width: 350px;
+  border-radius: 25px;
+  background-color: #8a8f910f;
+  margin-bottom: 1rem;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid #c7c5c5;
+}
+
+.container_login_form__email:hover {
+  height: 45px;
+  width: 350px;
+  border-radius: 25px;
+  background-color: #8a8f910f;
+  margin-bottom: 1rem;
+  display: flex;
+  overflow: hidden;
+  border: 2px solid #20c3ff;
+  cursor: pointer;
+}
+
+.container_login_form___field_icon {
+  height: 100%;
+  background-color: #8a8f910f;
+}
+
+.container_login_form__email img {
+  height: 20px;
+  width: 20px;
+  margin: 0.7rem;
+  align-self: center;
+}
+
+.container_login_form__email input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-color: #8a8f910f;
+  opacity: 0.4;
+  resize: none;
+  outline: none;
+  font-size: 15px;
+  color: #000000;
+  opacity: 0.7;
+  font-family: SFProDisplay-Regular;
+}
+
+.container_login_form__button {
+  height: 45px;
+  width: 350px;
+  background-color: #20c3ff;
+  border-radius: 22px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container_login_form__button:hover {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.container_login_form__button h4 {
+  color: #fefeff;
+  font-family: SFProDisplay-Medium;
+}
+
+.login_container {
+  height: 100vh;
+  background: transparent linear-gradient(120deg, rgba(255, 255, 255, 0.1) 0%, rgba(0, 173, 255, 0.1) 100%) 0% 0%
+  no-repeat padding-box;
+  /* width: 100%; */
+}
+
+/* redesign css */
+.login_form_container {
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+.p-0 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.row {
+  --bs-gutter-x: 0rem !important;
+}
+
+.login_form_container h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 100px;
+  color: #1c1c1e;
+}
+
+.login_form_container p:nth-child(3) {
+  font-size: 14px;
+  color: #9496a8;
+  margin-top: 20px;
+}
+
+.login_form_container div:nth-child(4) {
+  margin-top: 30px;
+}
+
+.login_form_container div:nth-child(5) {
+  margin-top: 15px;
+}
+
+.login_form_container div:nth-child(6) {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login_form_container div:nth-child(6) div:nth-child(2) {
+  margin-top: 10px;
+  color: #20c3ff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.login_form_container div:nth-child(7) {
+  margin-top: 20px;
+}
+
+.login_form_container div:nth-child(8) {
+  margin-top: 25px;
+  text-align: center;
+  color: #9496a8;
+  font-size: 14px;
+}
+
+.login_form_container div:nth-child(8) span {
+  color: #20c3ff;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .right_side_content {
+    display: none !important;
+  }
+
+  .login_form_container {
+    padding: 30px;
+  }
+}
+
+.right_side_content {
+  height: 100vh;
+  background-image: url('../../../assets/images/rightSidebg.png');
+  display: flex;
+  /* Set background size */
+  background-size: cover;
+
+  /* Set background repeat behavior */
+  background-repeat: no-repeat;
+
+  /* Set background position */
+  background-position: center center;
+  /* Set background color as a fallback */
+  background-color: #0cae91;
+}
+
+.right_side_content div:nth-child(1) {
+  margin-top: 34%;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+}
+
+.right_side_content div:nth-child(1) p:nth-child(2) {
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.right_side_content div:nth-child(1) p:nth-child(3) {
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 0px 50px;
+}
+
+.css-ahj2mt-MuiTypography-root {
+  font-size: 14px !important;
+}

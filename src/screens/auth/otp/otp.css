@@ -1,0 +1,122 @@
+.otp_form_container {
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+.otp_form_container h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 140px;
+  color: #1c1c1e;
+}
+
+.otp_form_container p:nth-child(3) {
+  font-size: 14px;
+  color: #9496a8;
+  margin-top: 20px;
+}
+
+.otp_form_container div:nth-child(5) {
+  font-size: 14px;
+  margin-top: 0.4rem;
+}
+
+.otp_form_container div:nth-child(6) {
+  margin-top: 35px;
+  color: #20c3ff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.otp_form_container div:nth-child(7) {
+  margin-top: 30px;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  color: #9496a8;
+}
+
+.otp_form_container div:nth-child(7) span {
+  color: #20c3ff;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .otp_form_container {
+    padding: 30px;
+  }
+}
+
+.otp_field_container {
+  height: 45px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #ffffff;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid #c7c5c5;
+  cursor: pointer;
+  margin-top: 35px;
+}
+
+.otp_field_container_error {
+  height: 45px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #ffffff;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid red;
+  cursor: pointer;
+  margin-top: 35px;
+}
+
+.otp_field_container_error input {
+  border: none !important;
+  background-color: #ffffff;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+
+.otp_field_container_error span hr {
+  justify-content: center;
+  width: 7px;
+  border: 2px solid #20c3ff;
+  margin-top: 20px;
+  margin-bottom: 1rem;
+}
+
+.otp_field_container input {
+  border: none !important;
+  background-color: #ffffff;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+
+.otp_field_container input:focus {
+  border: none !important;
+  background-color: #ffffff;
+  outline: none !important;
+}
+
+.otp_field_container:hover {
+  height: 45px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #ffffff;
+  display: flex;
+  overflow: hidden;
+  border: 2px solid #20c3ff;
+  cursor: pointer;
+  margin-top: 35px;
+}
+
+.otp_field_container span hr {
+  justify-content: center;
+  width: 7px;
+  border: 2px solid #20c3ff;
+  margin-top: 20px;
+  margin-bottom: 1rem;
+}
